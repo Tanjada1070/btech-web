@@ -1,4 +1,4 @@
-#!/bin/bash
+.#!/bin/bash
 
 # === Local CI/CD Script for Node.js + Minikube ===
 
