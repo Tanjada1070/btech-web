@@ -20,7 +20,7 @@ app.get('/contactus', (req, res) => {
     res.sendFile(path.join(__dirname, 'pages', 'contactus.html'));
 });
 app.get('/gallery', (req, res) => {
-    res.sendFile(path.join(__dirname, 'pages', 'garelly.html'));
+    res.sendFile(path.join(__dirname, 'pages', 'gallery.html'));
 });
 
 // Start server
