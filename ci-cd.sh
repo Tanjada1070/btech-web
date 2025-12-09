@@ -1,10 +1,10 @@
-.#!/bin/bash
+#!/bin/bash
 
 # === Local CI/CD Script for Node.js + Minikube ===
 
 set -e
 
-# 1. Use Minikube Docker daemon
+# 1. Use Minikube Docker daemon.
 echo "Switching Docker to Minikube environment..."
 eval $(minikube docker-env)
 
